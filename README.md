@@ -9,18 +9,7 @@ resulting audio stream.
 
 1. Install [FFmpeg](https://ffmpeg.org/) so that the `ffmpeg` and `ffprobe`
    commands are available on your `PATH`.
-2. Clone this repository and change into it:
-   ```bash
-   git clone https://github.com/<your-account>/loopify.git
-   cd loopify
-   ```
-3. (Optional) Create and activate a virtual environment if you prefer to keep
-   dependencies isolated:
-   ```bash
-   python3 -m venv .venv
-   source .venv/bin/activate
-   ```
-4. Run the helper script with Python:
+2. Run the helper script with Python:
    ```bash
    python loopify_audio.py <input-file> <cut-seconds>
    ```
